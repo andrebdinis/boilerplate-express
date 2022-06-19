@@ -1,9 +1,15 @@
 let express = require('express');
 let app = express();
-app.get("\/", function(req, res) {
+//console.log("Hello World");
+/*app.get("\/", function(req, res) {
   res.send("Hello Express");
+});*/
+app.get("\/", function(req, res) {
+  const relativePath = "/views/index.html";
+  const absolutePath = __dirname + relativePath;
+  res.sendFile(absolutePath);
 });
-console.log("Hello World");
+
 
 
 
