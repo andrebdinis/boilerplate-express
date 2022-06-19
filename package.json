@@ -1,10 +1,13 @@
 {
+  "author": "Andre Barreira Dinis",
+  "description": "Learn Node.js with Express framework.",
+  "license": "BSD",
 	"name": "fcc-learn-node-with-express",
 	"version": "0.1.0",
 	"dependencies": {
-		"express": "^4.14.0",
 		"body-parser": "^1.15.2",
 		"cookie-parser": "^1.4.3",
+		"express": "^4.18.1",
 		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
 	},
 	"main": "server.js",
