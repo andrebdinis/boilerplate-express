@@ -49,6 +49,8 @@ app.get("\/now", function(req, res, next) {
 app.get("/:word/echo", (req, res) => {
   res.json({echo: req.params.word});
 })
+// url example to test this:
+// https://boilerplate-express.andrebdinis.repl.co/freecodecamp/echo
 
 // given a query string:
 // /name?first=firstname&last=lastname
